@@ -1,0 +1,29 @@
+{
+  "info": {
+    "name": "WRX Generator Backend",
+    "_postman_id": "wrx-generator-collection",
+    "description": "Postman collection for WRX Generator API (health endpoint demo).",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Health Check",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:3000/api/health",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "health"
+          ]
+        }
+      }
+    }
+  ]
+}
